@@ -1,0 +1,137 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  color: #4e4e4e;
+}
+.skills-container {
+  margin: 50px;
+  background-color: #f5f5f5;
+}
+.wraper {
+  display: flex;
+  width: 100%;
+}
+.item-1 {
+  padding: 10px;
+  grid-area: item-1;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  width: 50%;
+}
+
+.item-1 img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.about-info {
+  padding-left: 20px;
+}
+
+.title-left {
+  position: relative;
+  font-size: 20px;
+}
+
+.title-left:before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: goldenrod;
+  width: 100px;
+  bottom: -12px;
+}
+.item-2 {
+  grid-area: item-2;
+  border-radius: 10px;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 60%;
+}
+.item-3 {
+  grid-area: item-3;
+  border-radius: 10px;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+}
+
+.skill-mf span {
+  color: #4e4e4e;
+  text-transform: uppercase;
+}
+
+.skill-mf .progress {
+  background-color: #7b7d7e;
+  margin: 0.5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: 0.7rem;
+}
+
+.title-s {
+  font-weight: bold;
+}
+
+.skill-mf .progress .progress-bar-65 {
+  height: 0.7rem;
+  background-color: goldenrod;
+  animation: progressBar-65 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+.skill-mf .progress .progress-bar-60 {
+  height: 0.7rem;
+  background-color: goldenrod;
+  animation: progressBar-60 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+.skill-mf .progress .progress-bar-80 {
+  height: 0.7rem;
+  background-color: goldenrod;
+  animation: progressBar-80 2s ease-in-out;
+  animation-fill-mode: both;
+}
+@keyframes progressBar-65 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes progressBar-60 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes progressBar-80 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+/* smartphone */
+@media (max-width: 600px) {
+  .wraper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item-1 img {
+    width: 120px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
