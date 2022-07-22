@@ -99,12 +99,12 @@ body {
   animation: progressBar-80 2s ease-in-out;
   animation-fill-mode: both;
 }
-@keyframes progressBar-65 {
+@keyframes progressBar-70 {
   0% {
     width: 0;
   }
   100% {
-    width: 65%;
+    width: 70%;
   }
 }
 
