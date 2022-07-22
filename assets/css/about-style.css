@@ -83,7 +83,7 @@ body {
 .animation1 {
   height: 0.7rem;
   background-color: goldenrod;
-  animation: progressBar-65 2s ease-in-out;
+  animation: progressBar-70 2s ease-in-out;
   animation-fill-mode: both;
 }
 .animation2 {
