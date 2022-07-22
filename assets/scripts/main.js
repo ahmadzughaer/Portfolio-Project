@@ -87,7 +87,7 @@
     }
 
     // animation on scroll 
-    let selectAnimation = document.querySelectorAll('.progress-bar-65')
+    let selectAnimation = document.querySelectorAll('.progress-bar-70')
     let selectAnimation1 = document.querySelectorAll('.progress-bar-60')
     let selectAnimation2 = select('.progress-bar-80')
 
